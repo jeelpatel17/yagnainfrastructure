@@ -60,7 +60,7 @@ a{
 
 #brand{
 	margin: 20px 20px;
-	font-size: 40px;
+	font-size: 2.3rem;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -71,14 +71,16 @@ nav h1{
 .brand-container{
 	display: flex;
 	justify-content: flex-start;
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 }
 
 .navbar{
     display: flex;
     justify-content: space-around;
 	flex-direction: row;
-	border-bottom: 2px black solid;
+    border-bottom: 2px black solid;
+    padding: 0;
+    box-shadow: 0px 20px 15px -15px #111;
 }
 
 .navbar a{
@@ -179,7 +181,7 @@ nav h1{
 }
 
 .contact-container button:hover{
-    transition: transform 0.2s ease;
+    transition: all 0.2s ease;
     background-color: #fff;
     color: #000;
 }
@@ -204,7 +206,7 @@ nav h1{
 }
 
 .inquiry-container textarea{
-    padding: 10px 10px 80px;
+    padding: 10px 10px 180px;
 }
 
 .inquiry-container button{
@@ -212,7 +214,7 @@ nav h1{
     transition: all 0.2s ease;
 }
 
-.inquiry-container button:hover{
+.inquiry-container button:hover,.inquiry-container button:active,.inquiry-container button:focus{
     background-color: #fff;
     color: #000;
 }
@@ -333,6 +335,10 @@ footer{
 	padding-bottom: 50px;
 }
 
+.plant-office p{
+    font-size: 1.3rem;
+}
+
 .plant-container{
 	padding-bottom: 10px;
 }
@@ -380,10 +386,6 @@ footer{
     font-size: 1.4rem;
 }
 
-@media screen and (max-width:1100px){
-    
-}
-
 @media screen and (max-width:992px){
     .inquiry{
         margin: 30px 0 0 90px;
@@ -402,6 +404,10 @@ footer{
     .owner-image{
         width: 46vw;
     }
+    .brand-container{
+        justify-content: center;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:400px){
@@ -414,14 +420,14 @@ footer{
     .card{
         margin-left: 10px;
     }
-    #contact-inquiry{
+    .inquiry{
         margin: 30px 20px 0 20px;
     }
 }
 
 @media screen and (min-width:400px){
     .inquiry{
-        margin: 30px 0 0 20px;
+        margin: 20px 0 0 30px!important;
     }
 }
 
