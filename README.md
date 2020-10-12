@@ -1,4 +1,6 @@
 # Yagna Infrastructure Business Website
+[![Updated Badge](https://badges.pufler.dev/updated/jeelpatel17/yagnainfrastructure)](https://github.com/jeelpatel17/yagnainfrastructure)
+[![Created Badge](https://badges.pufler.dev/created/jeelpatel17/yagnainfrastructure)](https://github.com/jeelpatel17/yagnainfrastructure)
 > **This is a construction business website which is built by [Jeel Patel](https://github.com/jeelpatel17).**
 
 ![](yagna-infrastructure.png)
