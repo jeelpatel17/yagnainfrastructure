@@ -18,7 +18,7 @@ git clone https://github.com/jeelpatel17/yagnainfrastructure
 
 ## Meta
 
-[Jeel Patel](https://jeelpatel.ml) — [@70r65eL](https://twitter.com/dbader_org) — jeelsardar77@gmail.com
+[Jeel Patel](https://jeelpatel17.github.io) — [@jeelpatel101](https://twitter.com/jeelpatel101) — jeelpateldev@gmail.com
 
 **Distributed under the MIT license. See ``LICENSE`` for more information.**
 
